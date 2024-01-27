@@ -15,12 +15,12 @@ const AchievementSection = () => {
         {
             metric:'Project',
             value:20,
-            postfix:'+'
+            postfix:'+',
         },
         
         {
             metric:'Internship',
-            value:1
+            value:1,
         },
         {
              metric:'Certifications',
@@ -41,18 +41,17 @@ const AchievementSection = () => {
             <h2 className='text-white text-4xl font-bold flex flex-row'>
                 {achievement.prefix}
                 <AnimatedNumbers
-                includeComma
-                animateToNumber={parseInt(achievement.value)}
-                locale='en-US'
-                className='text-white text-4xl font-bold'
-                configs={((_,index)=>{
-                    return{
-                        mass:1,
-                        friction:100,
-                        tensions:140*(index+1),
-                    }
-                })}
-
+                  includeComma
+                  animateToNumber={parseInt(achievement.value)}
+                  locale="en-US"
+                  className="text-white text-4xl font-bold"
+                  configs={(_, index) => {
+                    return {
+                      mass: 1,
+                      friction: 100,
+                      tensions: 140 * (index + 1),
+                    };
+                  }}
                 />
                 {achievement.postfix}
             </h2>
