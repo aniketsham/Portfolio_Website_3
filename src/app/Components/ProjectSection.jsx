@@ -48,6 +48,15 @@ const projectsData=[
         tag:["All","Web"],
         gitUrl:"https://github.com/aniketsham/Mr.Ecommerce",
         previewUrl:"http://anikets240802.pythonanywhere.com",
+    },
+    {
+      id:6,
+      title:"Next-amazon-app",
+      description:"A E commerce Web Application which uses Nextjs framework to display more dynamic and animated front end and NodeJs in the backend. This Web app uses MongoDB as a database.",
+      image:"/images/projects/6.png",
+      tag:["All","Web"],
+      gitUrl:"https://github.com/aniketsham/Mr.Ecommerce",
+      previewUrl:"https://github.com/aniketsham/Next-amazon-app",
     }
 ];
 const ProjectSection = () => {

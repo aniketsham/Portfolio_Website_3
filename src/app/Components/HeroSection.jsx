@@ -11,7 +11,7 @@ const HeroSection = () => {
         <motion.div initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={ {duration:0.5 }} className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
 
         <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold'>
-           <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Hello, I&apos;m {" "}</span>
+           <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600'>Hello, I&apos;m {" "}</span>
            <br/>
            <TypeAnimation
       sequence={[
@@ -34,8 +34,8 @@ const HeroSection = () => {
             I am a full stack developer with skills which can help you company to grow and to complete projects with an more optimised approach
         </p>
         <div>
-            <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500   mr-4 bg-white hover:bg-slate-200 text-white'>Hire Me</button>
-            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white  mt-3'>
+            <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500   mr-4 bg-white hover:bg-slate-200 text-white'>Hire Me</button>
+            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white  mt-3'>
                 <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ' >
                 <a href="/images/CV.pdf" download>Download</a></span></button>
         </div>
