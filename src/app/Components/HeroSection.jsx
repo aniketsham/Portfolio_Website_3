@@ -31,7 +31,7 @@ const HeroSection = () => {
     />
         </h1>
         <p className='text-[#ADB7BE] text-base  sm:text-lg mb-6 lg:text-xl'> 
-            I am a full stack developer with skills which can help you company to grow and to complete projects with an more optimised approach
+            I am a full stack developer with skills which can help your company to grow and to complete projects with a more optimised approach
         </p>
         <div>
             <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500   mr-4 bg-white hover:bg-slate-200 text-white'>Hire Me</button>
