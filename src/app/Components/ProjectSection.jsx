@@ -56,7 +56,7 @@ const projectsData=[
       image:"/images/projects/6.png",
       tag:["All","Web"],
       gitUrl:"https://github.com/aniketsham/Mr.Ecommerce",
-      previewUrl:"https://github.com/aniketsham/Next-amazon-app",
+      previewUrl:"https://next-amazon-app-seven.vercel.app/",
     }
 ];
 const ProjectSection = () => {
