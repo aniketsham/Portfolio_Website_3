@@ -57,6 +57,15 @@ const projectsData=[
       tag:["All","Web"],
       gitUrl:"https://github.com/aniketsham/Mr.Ecommerce",
       previewUrl:"https://next-amazon-app-seven.vercel.app/",
+    },
+    {
+      id:7,
+      title:"Mr Job's",
+      description:"A Job Portal which is gives job seekers and employer to connect with easily. This Web app uses MongoDB as a database.",
+      image:"/images/projects/7.png",
+      tag:["All","Web"],
+      gitUrl:"https://github.com/aniketsham/job_portal_backend",
+      previewUrl:"https://jobs-portal-frontend-kappa.vercel.app",
     }
 ];
 const ProjectSection = () => {
